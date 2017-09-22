@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+
+    "compilerOptions": {
+        "strictNullChecks": true
+    },
+
+    "include": [
+        "../../_shared/**/*.ts",
+        "../src/main/dist/**/*.ts",
+        "unit/**/*.ts"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "strictNullChecks": true,
+
+        "outDir": "node_modules/@shared/",
+		
+		"paths": {
+            "tslib": ["./node_modules/tslib/tslib.d.ts"]
+        }
+    },
+
+    "include": [
+        "../_shared/**/*.ts"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [ "DOM", "ES5" , "ScriptHost", "ES2015.Promise", "ES2015.Generator", "ES2015.Iterable" ],
+        "pretty": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+//        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "inlineSources": true,
+        "types": [ "jquery", "angular" ],
+
+        "downlevelIteration": true,
+        "importHelpers": true
+    }
+}
